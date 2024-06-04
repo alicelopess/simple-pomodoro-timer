@@ -1,9 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
 
-// pages
+// Layouts
+import { DefaultLayout } from './layouts/DefaultLayout'
+
+// Pages
 import { Home } from './pages/Home'
 import { History } from './pages/History'
-import { DefaultLayout } from './layouts/DefaultLayout'
 
 export function Router() {
   return (
